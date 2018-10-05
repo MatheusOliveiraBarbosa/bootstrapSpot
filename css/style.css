@@ -1,0 +1,153 @@
+/*
+*
+*/
+
+body, html, .capa{
+    height: 100%;
+}
+
+body{
+    background: url('../imagens/capa.png'),
+                url('../imagens//ruido.png'),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+nav.navbar-transparence{
+    padding: 15px 0px;
+    border: none;
+    background: rgba(0,0,0, 0.6);
+}
+
+.divisor {
+    margin: 10px 10px;
+    width: 1px;
+    height: 20px;
+    background: white;
+    opacity: 0.7;
+}
+
+.navbar-dark .navbar-nav .nav-link, footer .nav a{
+    color: rgb(255,255,255);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, footer .nav a:hover{
+    color: #9bf0e1;
+}
+
+/*-- BACKGROUND IMAGE  --*/
+
+.capa{
+    display: table;
+    width: 100%;
+}
+
+.texto-capa{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+
+
+/* BOTTONS */
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: background 0.4s, color 0.4s, border-color 0.4s;
+}
+
+.btn-purple{
+    background: #7c25f8;
+    border: 2px solid #7c25f8;
+}
+
+.btn-purple:hover{
+    background: #6207e3;
+    border: 2px solid #6207e3;
+    color: white;
+}
+
+.btn-white{
+    border: 2px solid white;
+}
+
+.btn-white:hover{
+    background-color: white;
+    color: black;    
+}
+
+/* FONTS AND LETTERS */
+
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+/* SECTION SERVICES*/
+#services{
+    background: white;
+    padding: 20px 0px;
+}
+
+#services h2, #services h3{
+    color: #7c25f8;
+}
+
+.albuns{
+    padding: 10px 0px;
+}
+
+/* SECTION Recursos*/
+#recursos{
+    padding: 20px 0px;
+    color: white;
+}
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+.rotation {
+    padding-left: 80px;
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg); /* IE 9*/
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera*/
+}
+
+/* FOOTER - rodape*/
+
+footer{
+    background: black;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+#rodape h4{
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+}
